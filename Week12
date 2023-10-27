@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Week 12</title>
+
+ 
+
+<script>
+        counter = 0;
+
+ 
+
+        function countClicks(element) {
+            counter = counter + 1;
+            var output = 'The link was pressed ' + counter + ' times.';
+            element.innerHTML = output;
+    }
+    /*
+<table>
+<tr>
+<th class="first-column">Number</th>
+<th>Color</th>
+<th>Size</th>
+</tr>
+<tr>
+<td class="first-column">1</td>
+<td>Red</td>
+<td style="text-align: center;">Medium</td>
+</tr>
+<tr>
+<td class="first-column">2</td>
+<td>Blue</td>
+<td style="text-align: center;">Small</td>
+</tr>
+<tr>
+<td class="first-column">3</td>
+<td>Green</td>
+<td style="text-align: center;">Large</td>
+</tr>
+</table>
+
+ 
+
+    In this code, I created a table. of 3 headers, "Number Color Sire" and, I coded each line so it's a 3x3 table
+    */
+</script>
+
+ 
+
+</head>
+<body>
+<h1>JavaScript Demo</h1>
+<a href="#" onclick="countClicks(this);">Click me</a>
+<p id="boxy"></p>
+<br>
+<img src="http://www.outgrabe.net/cat01.jpg" onmouseover="this.src='http://www.outgrabe.net/cat02.jpg'" onmouseout="this.src='http://www.outgrabe.net/cat01.jpg'" />
+</body>
+</html>
+
+ 
+
+Dispose d’un menu contextuel
